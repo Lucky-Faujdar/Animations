@@ -1,0 +1,23 @@
+
+:root{
+  --primaryColor:#00b7ff;
+  --secondaryColor:#6c757d;
+  --absolute-white: #ffffff;
+}
+#container{
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+button{
+  color:var(--absolute-white);
+  padding: 10px;
+}
+#PrimaryBtn{
+  background-color: var(--primaryColor);
+   
+}
+#SecondaryBtn{
+    background-color: var(--secondaryColor);
+}
